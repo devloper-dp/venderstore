@@ -45,7 +45,7 @@ export function ProductPage() {
         <div>
           <h1 className="text-3xl font-bold text-gray-900">{product.name}</h1>
           <p className="mt-4 text-xl font-bold text-gray-900">
-            ${product.price.toFixed(2)}
+            Rs{product.price.toFixed(2)}
           </p>
           <p className="mt-4 text-gray-600">{product.description}</p>
           

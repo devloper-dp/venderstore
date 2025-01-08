@@ -50,7 +50,7 @@ export function ProductCard({ product }: ProductCardProps) {
         </div>
         <div className="mt-4 flex items-center justify-between">
           <span className="text-xl font-bold text-gray-900">
-            ${product.price.toFixed(2)}
+            Rs.{product.price.toFixed(2)}
           </span>
           <button
             onClick={addToCart}
